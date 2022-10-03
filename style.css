@@ -8,7 +8,13 @@ body {
 
 .logo {
   background-color: #222f3e;
-  padding: 30px 0 30px 50px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+
+.logo > img {
+  height: 62px;
 }
 
 .menu_bar {
@@ -91,7 +97,7 @@ body {
 
 .picture {
   display: block;
-  height: 550px;
+  height: 450px;
   width: 96.5%;
   margin-left: auto;
   margin-right: auto;
