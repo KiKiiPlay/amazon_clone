@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #eaeded;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  background-color: #222f3e;
+  padding: 30px 0 30px 50px;
+}
+
+.menu_bar {
+  background-color: #354758;
+  padding: 10px 0 10px;
+}
+
+.menu_bar div {
+  display: inline-block;
+  color: white;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.menu_bar div:first-child {
+  padding-left: 40px;
+}
+
+.promotion {
+  text-align: center;
+  background-color: #f56600;
+  color: white;
+  padding: 10px 0 10px;
+  font-size: 20px;
+  margin: 40px;
+}
+
+.upper_bg {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background-image: url(./assets/bg-image.png);
+  padding: 70px 0 45px;
+  margin: 0 30px 30px;
+}
+
+.upper_bg div:first-child {
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+.cards {
+  background-color: white;
+  color: black;
+  margin: 0 30px 30px;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-box-shadow: 5px 7px 15px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 5px 7px 15px -9px rgba(66, 68, 90, 1);
+  box-shadow: 15px 10px 21px #eee;
+}
+
+.cards > img {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
+  padding: 15px 15px 0;
+}
+
+.cards div {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cards a {
+  margin-left: 25px;
+  font-size: 30px;
+  color: #137a8d;
+  text-decoration: none;
+}
+
+.picture {
+  display: block;
+  height: 550px;
+  width: 96.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text a {
+  margin-left: 25px;
+  font-size: 30px;
+  color: #137a8d;
+  text-decoration: none;
+}
+
+.pre_bottom {
+  background-color: #354758;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px 0 20px;
+}
+
+.pre_bottom a {
+  margin-left: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+.bottom {
+  background-color: #222f3e;
+}
+
+.bottom img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 120px 0 120px;
+}
